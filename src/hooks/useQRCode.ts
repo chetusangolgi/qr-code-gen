@@ -8,6 +8,7 @@ function buildOptions(config: QRConfig) {
     height: config.size,
     data: config.url || 'https://example.com',
     type: 'canvas',
+    margin: 20,
     dotsOptions: {
       type: config.dotType,
       ...(config.fgGradient.enabled

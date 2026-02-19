@@ -119,16 +119,16 @@ export function ControlPanel({ config, onChange }: ControlPanelProps) {
           </div>
           <input
             type="range"
-            min="150"
-            max="600"
-            step="10"
+            min="300"
+            max="2000"
+            step="50"
             value={config.size}
             onChange={(e) => update({ size: Number(e.target.value) })}
             className="w-full"
           />
           <div className="flex justify-between text-[10px] text-zinc-400 dark:text-zinc-600">
-            <span>150</span>
-            <span>600</span>
+            <span>300</span>
+            <span>2000</span>
           </div>
         </div>
       </Section>

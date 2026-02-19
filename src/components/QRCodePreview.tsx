@@ -10,7 +10,7 @@ export function QRCodePreview({ config, containerRef }: QRCodePreviewProps) {
     <div
       ref={containerRef}
       className="overflow-hidden [&>canvas]:block [&>canvas]:!h-auto [&>canvas]:!w-full"
-      style={{ width: Math.min(config.size, 320) }}
+      style={{ width: Math.min(config.size, 400) }}
     />
   );
 

@@ -41,7 +41,7 @@ export interface QRConfig {
 
 export const defaultConfig: QRConfig = {
   url: 'https://example.com',
-  size: 300,
+  size: 600,
   fgColor: '#000000',
   bgColor: '#ffffff',
   dotType: 'square',
